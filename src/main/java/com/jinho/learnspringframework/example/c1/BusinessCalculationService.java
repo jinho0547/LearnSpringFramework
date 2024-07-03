@@ -1,10 +1,10 @@
 package com.jinho.learnspringframework.example.c1;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 
-@Component
+@Service
 public class BusinessCalculationService {
 
     private DataService service;
